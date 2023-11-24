@@ -1,0 +1,9 @@
+ievaditais_skaitlis = int(input("Ievadietskaitli:"))
+
+
+faktorials = 1
+
+for i in range(1,ievaditais_skaitlis + 1):
+    faktorials *= i
+
+    print(f"faktorials no {ievaditais_skaitlis} ir: {faktorials}")

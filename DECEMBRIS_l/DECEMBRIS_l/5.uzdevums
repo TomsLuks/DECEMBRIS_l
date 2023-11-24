@@ -1,0 +1,13 @@
+import datetime
+
+pašreizejā_stunda = datetime.datetime.now().hour
+
+if 5<= pašreizejā_stunda < 12:
+    sveiciens = "Labrīt!"
+elif 12 <= pašreizejā_stunda < 18:
+    sveiciens = "Labdien!"
+else:
+    sveiciens = "Labvakar!"
+
+
+print(sveiciens)
